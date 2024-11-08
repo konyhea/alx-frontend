@@ -61,7 +61,17 @@
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background: var(--color-primary)
+    --button-hover-background: var(--color-primary);
+
+    /* HEADER CUSTOM STYLES*/
+
+    --header-padding: 4rem 0 0;
+    --header-logo-position: relative;
+    --header-logo-link-display: inline-block;
+    --header-logo-link-position: absolute;
+    --header-logo-link-top: -1rem;
+    --header-logo-link-left: 0;
+
 }
 
 
@@ -92,6 +102,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+/* HEADER STYLES  */
+
+.header {
+    padding: var(--header-padding);
+}
+
+.header-logo {
+    position: var(--header-logo-position);
+}
+
+.header-link link {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
+}
 
 /* ANCHOR ELEMENTS STYLES */
 a:link {
@@ -228,10 +254,10 @@ a:active {
 }
 
 .section-hero {
-    background-size: 90rem auto;
+    background-size: width height;
     background-repeat: no-repeat;
-    /* width: 90rem;
-    height: auto; */
+    width: 90rem;
+    height: auto;
 }
 
 .section-hero .section-title {
