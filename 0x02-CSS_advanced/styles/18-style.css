@@ -40,7 +40,6 @@
 
     --section-title-margin: 0;
     --section-title-color: color-black;
-
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding:  0 0 3rem;
@@ -188,13 +187,13 @@ a:active {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-}
+  }
 
-.nav .nav-link {
+  .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
-    /* padding: ; */
-}
+    position: relative;
+  }
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
